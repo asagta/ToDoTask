@@ -42,7 +42,7 @@ function MainView() {
         ? (
           <div>
             <button type="button" className="btn btn-danger" disabled={filts.length === 0} onClick={() => deleteItems()}>Delete</button>
-            <table className="table table-bordered table-styler">
+            <table className="table table-bordered table-styler" style={{ width: ' 60%', margin: '6%' }}>
               <thead>
                 <tr>
                   <th>{' '}</th>
